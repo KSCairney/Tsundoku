@@ -1,0 +1,58 @@
+body {
+    background: #fff2e6;
+    color: #000000;
+    font-family: courier;
+}
+
+#scibut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#clasbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#fanbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#switch {
+    color: #000000;
+    font-family: courier;
+    margin-left: 300px;
+}
+
+a {
+    color: #006600;
+    text-decoration: none;
+}
+
+.covered {
+    height: 500px;
+    width: auto;
+}
+
+#rando {
+    float: left;
+    max-width: 200px;
+    padding: 40px;
+    margin-top: 800px;
+}
+
+.lordofpain  {
+    border-left: 1px black;
+    padding:1em;
+    overflow: hidden;
+    margin-left: 250px;
+}
+
+.blink {
+    font-family: Georgia;
+    font-size: 22px;
+}

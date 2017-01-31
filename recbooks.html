@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Recommendations</title>
+        <meta charset="utf-8"/>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+        <script>
+            $(document).ready(function(){
+                $("#scibut, #clasbut, #fanbut").hover(function(){
+                    $(this).css("color", "#e68a00");
+                }, function() {
+                    $(this).css("color", "#000000");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="inBox">
+            <div class="theBox">
+                <div id="kanji">
+                    <h1 id="nihon">積ん読</h1>
+                </div>
+                <div id="def">
+                    <h2>Tsundoku</h2>
+                    <h5 id="ipa">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</h5>
+                </div>
+            </div>
+            </div>
+        </header>
+        <section id="rando">
+                <div id="scibut" onclick="sciclick()"><b>Science Fiction:</b></div>
+            <script>
+            var scifi = ['<a class="blink" href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune by Frank Herbert</a><br><br><img class="covered" src="booky/dunefh.jpg"><p>A book about sand, worms, and war. Why dont you go to the side dammit! What the fuck!</p>', 
+                        'Stranger In A Strangeland by Robert Heinlein', 
+                        'Cats Cradle by Kurt Vonnegut', 
+                        'Hyperion by Dan Simmons', 
+                        'Oryx And Crake by Margaret Atwood', 
+                        'The Left Hand Of Darkness by Ursula Le Guin', 
+                        'The Moon Is A Harsh Mistress by Robert Heinlein', 
+                        '<a class="blink" href="androidsPKD.html">Do Androids Dream Of Electric Sheep? by Philip K Dick</a><br><br><img class="covered" src="booky/doandroids.jpg"><p>An awesome book about hunting down androids. It was a movie staring Harrison Ford. Called Blade Runner. Part of it was filmed at the Bradbury Building! Maybe if I make this super long and interesting it will do what I want. But know it is being a bit of a dick. Will it slowly climb? I dont know? Hopefully!</p>', 
+                        'The Hitchhikers Guide To The Universe by Douglas Adams'];
+            function scibook() {
+                var sci = [Math.floor(Math.random() * scifi.length)];
+                return scifi[sci];
+            }
+            function sciclick() {
+                document.getElementById("switch").innerHTML= scibook();
+            }
+            </script>
+                <br>
+                <div id="clasbut" onclick="clasclick()"><b>Classics:</b></div>
+            <script>
+            var classic = ['Animal Farm by George Orwell', 'The Sound And The Fury by William Faulkner', '1984 by George Orwell', 'A Study In Scarlet by Arthur Conan Doyle'];
+            function clasbook() {
+                var clas = [Math.floor(Math.random() * classic.length)];
+                return classic[clas];
+            }
+            function clasclick() {
+                document.getElementById("switch").innerHTML= clasbook();
+            }
+            </script>
+                <br>
+                <div id="fanbut" onclick="fanclick()"><b>Fantasy:</b></div>
+            <script>
+            var fantasy = ['The Hobbit by JRR Tolkien', 'A Game Of Thrones by George RR Martin', 'The Magicians by Lev Grossman', 'American Gods by Neil Gaiman'];
+            function fanbook() {
+                var fan = [Math.floor(Math.random() * fantasy.length)];
+                return fantasy[fan];
+            }
+            function fanclick() {
+                document.getElementById("switch").innerHTML= fanbook();
+            }
+            </script>
+        </section>
+        <article class="lordofpain">
+            <div id="switch">  </div>
+        </article>
+    </body>
+</html>

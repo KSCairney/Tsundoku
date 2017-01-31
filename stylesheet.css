@@ -1,0 +1,135 @@
+body {
+    background-color: #fff2e6;
+    color: #492600;
+    font-family: georgia;
+}
+
+div.inBox {
+    background: url(bookshelf.jpg);
+    border: 1px solid #492600;
+}
+
+div.theBox {
+    margin: 40px;
+    background-color: #fff2e6;
+    border: 1px solid #492600;
+    opacity: 0.85;
+    filter: sepia(100%);
+}
+
+#nihon {
+    font-size: 65px;
+    /*float: right;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#kanji {
+    display: inline-block;
+    line-height: 30%;
+}
+
+#def {
+    display: inline-block;
+}
+
+#ipa {
+    line-height: 0%;
+    font-family: courier;
+}
+
+#subtitle {
+    font-family: Georgia;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.bookcover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+
+.jacket {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+}
+
+.bookTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+/* Recbooks.html */
+
+#scibut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#clasbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#fanbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#switch {
+    color: #000000;
+    font-family: courier;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.covered {
+    height: auto;
+    width: 250px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+#rando {
+    float:left;
+    max-width: 200px;
+    padding: 40px;
+}
+
+#lordofpain   {
+    margin-left: 210px;
+    margin-top: 300px;
+    padding:1em;
+    overflow: hidden;
+}
+
+.blink {
+    font-family: Georgia;
+    color: #e68a00;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.shrike {
+    margin-left: 15px;
+}
+
+p {
+    width: 100%;
+    max-width: 500px;
+    text-align: justify;
+    line-height: 125%;
+    margin-left: 10px;
+    display: inline-block;
+}
