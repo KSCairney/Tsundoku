@@ -85,3 +85,89 @@ nav {
     font-size: 24px;
     vertical-align: top;
 }
+
+#duneban {
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #996633;
+}
+
+#dunePic {
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+    height: 200px;
+    width: auto;
+    float: right;
+    position: relative;
+}
+
+#fhDunetitle {
+    display: inline-block;
+    font-family: georgia;
+    font-size: 24px;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 300px;
+}
+
+#hmHardboiledtitle {
+    display: inline-block;
+    font-family: georgia;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+#hardboiledban {
+    height: 200px;
+    width: 100%;
+    background-color: #3366ff;
+    color: #ffffff;
+}
+#hardboiledPic {
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    height: 200px;
+    width: auto;
+}
+
+#augustban {
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #990000;
+}
+
+#augustPic {
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+    height: 200px;
+    width: auto;
+    float: right;
+    position: relative;
+}
+
+#wfAugusttitle {
+    display: inline-block;
+    font-family: georgia;
+    font-size: 24px;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 300px;
+}
+
+#msFranktitle {
+    display: inline-block;
+    font-family: georgia;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+#frankban {
+    height: 200px;
+    width: 100%;
+    background-color: #404040;
+    color: #ffffff;
+}
+#frankPic {
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    height: 200px;
+    width: auto;
+}
