@@ -52,11 +52,99 @@ nav {
     display: inline-block;
     text-align: justify;
 }
+/* The books start here */
+.Reccover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+
+.Hypcover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+.Gocover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+.Damncover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+.Midcover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+.Scarcover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+.Leibcover {
+    position: relative;
+    margin:auto;
+    display: inline-block;
+    text-align: justify;
+}
+/* the books end here */
+.recs {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.hyps {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.gos {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.damns {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.mids {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.scars {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
+.leibs {
+    border-radius: 3%;
+    height: 400px;
+    width: auto;
+    opacity: 1;
+}
 
 .jacket {
     border-radius: 3%;
     height: 400px;
     width: auto;
+    opacity: 1;
 }
 
 .bookTitle {
@@ -67,7 +155,88 @@ nav {
     font-size: 18px;
 }
 
-/* Recbooks.html */
+/* the text splash is here */
+.inner {
+    color: #ffffff;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inRec {
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inHyp {
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inGo{
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inDamn{
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inMid{
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inScar{
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.inLeib{
+    color: #492600;
+    text-align: left;
+    font-family: courier;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+/* Recbooks.html -----------------------------------*/
 
 #scibut {
     color: #000000;

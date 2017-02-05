@@ -5,7 +5,68 @@
         <meta charset="utf-8"/>
         <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
-	</head>
+        <script>
+        $(document).ready(function(){
+            $(".inRec, .inHyp, .inGo, .inDamn, .inMid, .inScar, .inLeib").hide();
+            $(".Reccover").hover(function(){
+                $(".inRec").show();
+                $(".recs").css("opacity", "0.1");
+            }, function(){
+                $(".inRec").hide();
+                $(".recs").css("opacity", "1");
+            });
+            $(".Hypcover").hover(function(){
+                $(".inHyp").show();
+                $(".hyps").css("opacity", "0.1");
+            }, function(){
+                $(".inHyp").hide();
+                $(".hyps").css("opacity", "1");
+            });
+            $(".Gocover").hover(function(){
+                $(".inGo").show();
+                $(".gos").css("opacity", "0.1");
+            }, function(){
+                $(".inGo").hide();
+                $(".gos").css("opacity", "1");
+            });
+            $(".Damncover").hover(function(){
+                $(".inDamn").show();
+                $(".damns").css("opacity", "0.1");
+            }, function(){
+                $(".inDamn").hide();
+                $(".damns").css("opacity", "1");
+            });
+            $(".Damncover").hover(function(){
+                $(".inDamn").show();
+                $(".damns").css("opacity", "0.1");
+            }, function(){
+                $(".inDamn").hide();
+                $(".damns").css("opacity", "1");
+            });
+            $(".Midcover").hover(function(){
+                $(".inMid").show();
+                $(".mids").css("opacity", "0.1");
+            }, function(){
+                $(".inMid").hide();
+                $(".mids").css("opacity", "1");
+            });
+            $(".Scarcover").hover(function(){
+                $(".inScar").show();
+                $(".scars").css("opacity", "0.1");
+            }, function(){
+                $(".inScar").hide();
+                $(".scars").css("opacity", "1");
+            });
+            $(".Leibcover").hover(function(){
+                $(".inLeib").show();
+                $(".leibs").css("opacity", "0.1");
+            }, function(){
+                $(".inLeib").hide();
+                $(".leibs").css("opacity", "1");
+            });
+        });
+        </script>
+    </head>
 	<body>
         <header>
             <div class="inBox">
@@ -23,27 +84,48 @@
         <br>
         <br>
         <nav>
-        <div class="bookcover">
-            <img class="jacket" src="booky/randomcover.jpg">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/hyperion.jpg">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/go.jpg">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/damned.jpg" onmouseover="this.src='black/damned.jpg'" onmouseout="this.src='booky/damned.jpg'">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/midnight.jpg">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/scarlet.jpg">
-        </div>
-        <div class="bookcover">
-            <img class="jacket" src="booky/leibowitz.jpg">
-        </div>
+        <a class="Reccover" href="recbooks.html">
+            <img class="recs" src="booky/randomcover.jpg">
+            <div class="blackRedc">
+                <div class="inRec">A Book Recommendation</div>
+            </div>
+        </a>
+        <a class="Hypcover" href="revHyp.html">
+            <img class="hyps" src="booky/hyperion.jpg">
+            <div class="blackHyp">
+                <div class="inHyp">Hyperion<br>by<br>Dan Simmons</div>
+            </div>
+        </a>
+        <a class="Gocover" href="revGo.html">
+            <img class="gos" src="booky/go.jpg">
+            <div class="blackGo">
+                <div class="inGo">The Master<br>Of Go<br>by<br>Yasunari Kawabata</div>
+            </div>
+        </a>
+        <a class="Damncover" href="revDamn.html">
+            <img class="damns" src="booky/damned.jpg">
+            <div class="blackDamn">
+                <div class="inDamn">Damned<br>by<br>Chuck Palahniuk</div>
+            </div>
+        </a>
+        <a class="Midcover" href="revMid.html">
+            <img class="mids" src="booky/midnight.jpg">
+            <div class="blackMid">
+                <div class="inMid">Midnight's Children<br>by<br>Salman Rushdie</div>
+            </div>
+        </a>
+        <a class="Scarcover" href="revScar.html">
+            <img class="scars" src="booky/scarlet.jpg">
+            <div class="blackScar">
+                <div class="inScar">A Study In Scarlet<br>by<br>Sir Arthur Conan Doyle</div>
+            </div>
+        </a>
+        <a class="Leibcover" href="revLeib.html">
+            <img class="leibs" src="booky/leibowitz.jpg">
+            <div class="blackLeib">
+                <div class="inLeib">A Canticle<br>For Leibowitz<br>by<br>Walter M. Miller, Jr.</div>
+            </div>
+        </a>
         </nav>
 	</body>
 </html>
