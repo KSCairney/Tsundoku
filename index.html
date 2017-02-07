@@ -1,131 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<title>Tsundoku</title>
-        <meta charset="utf-8"/>
+        <title>Tsundoku</title>
         <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
-        <script>
-        $(document).ready(function(){
-            $(".inRec, .inHyp, .inGo, .inDamn, .inMid, .inScar, .inLeib").hide();
-            $(".Reccover").hover(function(){
-                $(".inRec").show();
-                $(".recs").css("opacity", "0.1");
-            }, function(){
-                $(".inRec").hide();
-                $(".recs").css("opacity", "1");
-            });
-            $(".Hypcover").hover(function(){
-                $(".inHyp").show();
-                $(".hyps").css("opacity", "0.1");
-            }, function(){
-                $(".inHyp").hide();
-                $(".hyps").css("opacity", "1");
-            });
-            $(".Gocover").hover(function(){
-                $(".inGo").show();
-                $(".gos").css("opacity", "0.1");
-            }, function(){
-                $(".inGo").hide();
-                $(".gos").css("opacity", "1");
-            });
-            $(".Damncover").hover(function(){
-                $(".inDamn").show();
-                $(".damns").css("opacity", "0.1");
-            }, function(){
-                $(".inDamn").hide();
-                $(".damns").css("opacity", "1");
-            });
-            $(".Damncover").hover(function(){
-                $(".inDamn").show();
-                $(".damns").css("opacity", "0.1");
-            }, function(){
-                $(".inDamn").hide();
-                $(".damns").css("opacity", "1");
-            });
-            $(".Midcover").hover(function(){
-                $(".inMid").show();
-                $(".mids").css("opacity", "0.1");
-            }, function(){
-                $(".inMid").hide();
-                $(".mids").css("opacity", "1");
-            });
-            $(".Scarcover").hover(function(){
-                $(".inScar").show();
-                $(".scars").css("opacity", "0.1");
-            }, function(){
-                $(".inScar").hide();
-                $(".scars").css("opacity", "1");
-            });
-            $(".Leibcover").hover(function(){
-                $(".inLeib").show();
-                $(".leibs").css("opacity", "0.1");
-            }, function(){
-                $(".inLeib").hide();
-                $(".leibs").css("opacity", "1");
-            });
-        });
-        </script>
     </head>
-	<body>
+    <body>
         <header>
-            <div class="inBox">
-            <div class="theBox">
-                <div id="kanji">
-                    <h1 id="nihon">積ん読</h1>
-                </div>
-                <div id="def">
-                    <h2>Tsundoku</h2>
-                    <h5 id="ipa">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</h5>
-                </div>
+            <div id="logo">
+                <div id="name">積ん読</div>
             </div>
+            <div id="engban">
+                <p id="eng">Tsundoku</p>
+                <p id="def">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</p>
             </div>
+            <img id="corner" src="books.jpg">
         </header>
-        <br>
-        <br>
         <nav>
-        <a class="Reccover" href="recbooks.html">
-            <img class="recs" src="booky/randomcover.jpg">
-            <div class="blackRedc">
-                <div class="inRec">A Book Recommendation</div>
+            <div id="sheepban">
+                <img id="sheepPic" src="sheepy.jpg">
+                <p id="pkdSheeptitle">Do Androids Dream Of Electric Sheep?
+                    <br>by<br>
+                    Philip K Dick</p>
             </div>
-        </a>
-        <a class="Hypcover" href="revHyp.html">
-            <img class="hyps" src="booky/hyperion.jpg">
-            <div class="blackHyp">
-                <div class="inHyp">Hyperion<br>by<br>Dan Simmons</div>
+            <div id="duneban">
+                <p id="fhDunetitle">Dune 
+                    <br>by<br>
+                    Frank Herbert</p>
+                <img id="dunePic" src="dunePic.jpg">
             </div>
-        </a>
-        <a class="Gocover" href="revGo.html">
-            <img class="gos" src="booky/go.jpg">
-            <div class="blackGo">
-                <div class="inGo">The Master<br>Of Go<br>by<br>Yasunari Kawabata</div>
+            <div id="hardboiledban">
+                <img id="hardboiledPic" src="hardboiled.jpg">
+                <p id="hmHardboiledtitle">Hard-Boiled Wonderland And The End Of The World
+                    <br>by<br>
+                    Haruki Murakami</p>
             </div>
-        </a>
-        <a class="Damncover" href="revDamn.html">
-            <img class="damns" src="booky/damned.jpg">
-            <div class="blackDamn">
-                <div class="inDamn">Damned<br>by<br>Chuck Palahniuk</div>
+            <div id="augustban">
+                <p id="wfAugusttitle">A Light In August
+                    <br>by<br>
+                    William Faulkner</p>
+                <img id="augustPic" src="august.jpg">
             </div>
-        </a>
-        <a class="Midcover" href="revMid.html">
-            <img class="mids" src="booky/midnight.jpg">
-            <div class="blackMid">
-                <div class="inMid">Midnight's Children<br>by<br>Salman Rushdie</div>
+            <div id="frankban">
+                <img id="frankPic" src="frank.jpg">
+                <p id="msFranktitle">Frankenstein
+                    <br>by<br>
+                    Mary Shelley</p>
             </div>
-        </a>
-        <a class="Scarcover" href="revScar.html">
-            <img class="scars" src="booky/scarlet.jpg">
-            <div class="blackScar">
-                <div class="inScar">A Study In Scarlet<br>by<br>Sir Arthur Conan Doyle</div>
-            </div>
-        </a>
-        <a class="Leibcover" href="revLeib.html">
-            <img class="leibs" src="booky/leibowitz.jpg">
-            <div class="blackLeib">
-                <div class="inLeib">A Canticle<br>For Leibowitz<br>by<br>Walter M. Miller, Jr.</div>
-            </div>
-        </a>
         </nav>
-	</body>
+    </body>
 </html>
