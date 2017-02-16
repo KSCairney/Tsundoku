@@ -6,6 +6,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+        <script>
+            $(document).ready(function(){
+                $("#horsesban, #sheepban, #duneban, #hardboiledban, #augustban, #frankban").hover(function(){
+                    $(this).css("width", "100%").css("font-size", "25px");
+                }, function(){
+                    $(this).css("width", "95%").css("font-size", "24px");
+                });
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -72,5 +81,7 @@
                     Mary Shelley</p>
             </div>
         </nav>
+        <br>
+        <br>
     </body>
 </html>
