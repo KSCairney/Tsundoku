@@ -8,28 +8,37 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
         <script>
             $(document).ready(function(){
-                $("#horsesban, #duneban, #frankban").hover(function(){
+                $("#horsesban, #duneban, #frankban, #gokawaban").hover(function(){
                     $(this).css("width", "100%").css("font-size", "25px");
                 }, function(){
-                    $(this).css("width", "95%").css("font-size", "24px");
+                    $(this).css("width", "95%").css("font-size", "23px");
                 });
-                $("#sheepban").hover(function(){
+                $("#sheepban, #leibban, #shrikeban").hover(function(){
                     $(this).css("width", "100%").css("font-size", "25px");
                 }, function(){
-                    $(this).css("width", "93%").css("font-size", "24px");
+                    $(this).css("width", "93%").css("font-size", "23px");
                 });
-                $("#hardboiledban").hover(function(){
+                $("#hardboiledban, #midnightban").hover(function(){
                     $(this).css("width", "100%").css("font-size", "25px");
                 }, function(){
-                    $(this).css("width", "97%").css("font-size", "24px");
+                    $(this).css("width", "97%").css("font-size", "23px");
                 });
                 $("#augustban").hover(function(){
                     $(this).css("width", "100%").css("font-size", "25px");
                 }, function(){
-                    $(this).css("width", "92%").css("font-size", "24px");
+                    $(this).css("width", "92%").css("font-size", "23px");
+                });
+                $("#scarletban, #damnban").hover(function(){
+                    $(this).css("width", "100%").css("font-size", "25px");
+                }, function(){
+                    $(this).css("width", "96%").css("font-size", "23px");
+                });
+                $(".reccy, .conny").hover(function(){
+                    $(this).css("color", "#994d00");
+                }, function(){
+                    $(this).css("color", "#000000");
                 });
             });
-            
         </script>
     </head>
     <body>
@@ -55,11 +64,49 @@
             </div>
         </header>
         <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#recommendations">Recommendations</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="homey" href="index.html">Home</a></li>
+            <li><a class="reccy" href="recbooks.html">Recommendations</a></li>
+            <li><a class="conny" href="#contact">Contact</a></li>
         </ul>
         <nav>
+            <div id="gokawaban">
+                <p id="ykGokawatitle">The Master Of Go
+                    <br>by<br>
+                    Yasunari Kawabata</p>
+                <img id="gokawaPic" src="gokawa.jpg">
+            </div>
+            <div id="shrikeban">
+                <img id="shrikePic" src="shrike.jpg">
+                <p id="dsShriketitle">Hyperion
+                    <br>by<br>
+                    Dan Simmons</p>
+            </div>
+            <div id="damnban">
+                <p id="cpDamntitle">Damned
+                    <br>by<br>
+                    Chuck Palahniuk</p>
+                <img id="damnPic" src="damn.jpg">
+            </div>
+            <div id="midnightban">
+                <img id="midnightPic" src="midnight.jpg">
+                <p id="srMidnighttitle">Midnight's Children
+                    <br>by<br>
+                    Salman Rushdie</p>
+            </div>
+            <div id="scarletban">
+                <p id="sacdScarlettitle">A Study In Scarlet
+                    <br>by<br>
+                    Sir Arthur Conan Doyle</p>
+                <img id="scarletPic" src="scarlet.jpg">
+            </div>
+            <a href="leib.html">
+            <div id="leibban">
+                <img id="leibPic" src="leiby.jpg">
+                <p id="wmmjLeibtitle">A Canticle For Leibowitz
+                    <br>by<br>
+                    Walter M Miller Jr</p>
+            </div>
+            </a>
             <div id="horsesban">
                 <p id="cmHorsestitle">All The Pretty Horses
                     <br>by<br>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tsundoku</title>
+        <link rel='stylesheet' type='text/css' href='stylesheetpage.css'/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+        <script>
+         $(document).ready(function(){
+             $(".homey, .reccy, .conny").hover(function(){
+                    $(this).css("color", "#994d00");
+                }, function(){
+                    $(this).css("color", "#000000");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <!--<div id="logo">
+                <div id="name">積ん読</div>
+            </div>
+            <div id="engban">
+                <p id="eng">Tsundoku</p>
+                <p id="def">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</p>
+            </div>
+            <img id="corner" src="books.jpg">-->
+            <div class="inBox">
+            <div class="theBox">
+                <div id="kanji">
+                    <h1 id="nihon">積ん読</h1>
+                </div>
+                <div id="defi">
+                    <h2>Tsundoku</h2>
+                    <h5 id="ipa">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</h5>
+                </div>
+            </div>
+            </div>
+        </header>
+        <ul>
+            <li><a class="homey" href="index.html">Home</a></li>
+            <li><a class="reccy" href="recbooks.html">Recommendations</a></li>
+            <li><a class="conny" href="#contact">Contact</a></li>
+        </ul>
+        <img class="bcover" src="leibfirst.jpg">
+        <br>
+    </body>
+</html>

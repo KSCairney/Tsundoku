@@ -3,12 +3,12 @@
     <head>
         <title>Book Recommendations</title>
         <meta charset="utf-8"/>
-        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <link rel='stylesheet' type='text/css' href='stylesheetrec.css'/>
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
         <script>
             $(document).ready(function(){
-                $("#scibut, #clasbut, #fanbut").hover(function(){
-                    $(this).css("color", "#e68a00");
+                $("#scibut, #clasbut, #fanbut, .homey, .conny").hover(function(){
+                    $(this).css("color", "#994d00");
                 }, function() {
                     $(this).css("color", "#000000");
                 });
@@ -17,18 +17,31 @@
     </head>
     <body>
         <header>
+            <!--<div id="logo">
+                <div id="name">積ん読</div>
+            </div>
+            <div id="engban">
+                <p id="eng">Tsundoku</p>
+                <p id="def">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</p>
+            </div>
+            <img id="corner" src="books.jpg">-->
             <div class="inBox">
             <div class="theBox">
                 <div id="kanji">
                     <h1 id="nihon">積ん読</h1>
                 </div>
-                <div id="def">
+                <div id="defi">
                     <h2>Tsundoku</h2>
                     <h5 id="ipa">/ʦuːn.doʊ.kuː/ (n.) The piling up of books without reading them.</h5>
                 </div>
             </div>
             </div>
         </header>
+        <ul>
+            <li><a class="homey" href="index.html">Home</a></li>
+            <li><a class="reccy" href="recbooks.html">Recommendations</a></li>
+            <li><a class="conny" href="#contact">Contact</a></li>
+        </ul>
         <section id="rando">
                 <div id="scibut" onclick="sciclick()"><b>Science Fiction:</b></div>
             <script>
@@ -77,5 +90,7 @@
         <article class="lordofpain">
             <div id="switch">  </div>
         </article>
+        <br>
+        <br>
     </body>
 </html>

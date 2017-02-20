@@ -1,0 +1,74 @@
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: courier;
+}
+
+div.inBox {
+    background: url(pages.jpg);
+    border: 1px solid #331a00;
+    width: 100%;
+}
+
+div.theBox {
+    margin: 40px;
+    background-color: #ffffff;
+    border: 1px solid #331a00;
+    opacity: 0.85;
+}
+
+#nihon {
+    font-size: 65px;
+    /*float: right;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #331a00
+}
+#kanji {
+    display: inline-block;
+    line-height: 30%;
+    color:#331a00;
+}
+
+#defi {
+    display: inline-block;
+    color: #331a00;
+}
+
+#ipa {
+    line-height: 0%;
+    font-family: courier;
+    color: #331a00;
+}
+
+#subtitle {
+    font-family: Georgia;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    opacity: 0.85;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #331a00;
+    text-align:center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: courier;
+}
+
