@@ -8,6 +8,7 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
         <script>
             $(document).ready(function(){
+                $("#midblock").hide();
                 $("#horsesban, #duneban, #frankban, #gokawaban").hover(function(){
                     $(this).css("width", "100%").css("font-size", "25px");
                 }, function(){
@@ -37,6 +38,9 @@
                     $(this).css("color", "#994d00");
                 }, function(){
                     $(this).css("color", "#000000");
+                });
+                $("#midnightban").click(function(){
+                    $("#midblock").toggle();
                 });
             });
         </script>

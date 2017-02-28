@@ -5,17 +5,6 @@ body{
     color: #ffffff;
 }
 
-@media only screen and (max-width: 600px){
-    nav{
-        min-width: 200px;
-    }
-    #horseban{
-        height:40px;
-    }
-    #horsePic{
-        height:40px;
-    }
-}
 /*
 header {
     width: 100%;
@@ -24,6 +13,7 @@ header {
     overflow:hidden;
 }
 */
+/* this is the header */
 div.inBox {
     background: url(pages.jpg);
     border: 1px solid #331a00;
@@ -65,7 +55,7 @@ div.theBox {
     font-family: Georgia;
     text-align: center;
 }
-
+/* here is the menu bar*/
 ul{
     list-style-type: none;
     margin: 0;
@@ -96,7 +86,7 @@ li a{
     color: #994d00;
 }
 
-/*
+/* this is all unused or changed
 #logo {
     border-radius: 50%;
     background-color: #ffcc00;
@@ -152,6 +142,8 @@ li a{
     position: relative;
 }
 */
+
+/*this is to set up the page edge on the navigation section*/
 nav {
     width: 100%;
     min-width: 800px;
@@ -162,6 +154,7 @@ nav {
     border-color: #2a2a2b;
     border-style: solid;
 }
+/*The Master of Go by Yasunari Kawabata*/
 #gokawaban {
     height: 200px;
     width: 95%;
@@ -189,7 +182,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*Hyperion by Dan Simmons*/
 #shrikeban {
     height: 200px;
     width: 93%;
@@ -212,7 +205,7 @@ nav {
     font-family: georgia;
     vertical-align: top;
 }
-
+/*Damned by Chuck Palahniuk*/
 #damnban {
     height: 200px;
     width: 96%;
@@ -240,7 +233,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*Midnight's Children by Salman Rushdie*/
 #midnightban {
     height: 200px;
     width: 97%;
@@ -251,6 +244,7 @@ nav {
     border-style: solid;
     border-radius: 2px;
     font-size: 23px;
+    cursor: pointer;
 }
 #midnightPic {
     clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
@@ -263,7 +257,7 @@ nav {
     font-family: georgia;
     vertical-align: top;
 }
-
+/*A Study In Scarlet by Sir Arthur Conan Doyle*/
 #scarletban {
     height: 200px;
     width: 96%;
@@ -291,7 +285,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*A Canticle For Leibowitz by Walter Miller Jr*/
 #leibban {
     height: 200px;
     width: 93%;
@@ -314,7 +308,7 @@ nav {
     font-family: georgia;
     vertical-align: top;
 }
-
+/*All The Pretty Horses by Cormac McCarthy*/
 #horsesban {
     height: 200px;
     width: 95%;
@@ -342,7 +336,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*Do Androids Dream of Electric sheep by Philip K Dick*/
 #sheepban {
     height: 200px;
     width: 93%;
@@ -365,7 +359,7 @@ nav {
     font-family: georgia;
     vertical-align: top;
 }
-
+/*Dune by Frank Herbert*/
 #duneban {
     height: 200px;
     width: 95%;
@@ -393,7 +387,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*Hard Boiled Wonderland And The End Of The World by Haruki Murakami*/
 #hmHardboiledtitle {
     display: inline-block;
     font-family: georgia;
@@ -416,7 +410,7 @@ nav {
     height: 100%;
     width: auto;
 }
-
+/*A Light In August by William Faulkner*/
 #augustban {
     height: 200px;
     width: 92%;
@@ -444,7 +438,7 @@ nav {
     text-align: left;
     padding-left: 120px;
 }
-
+/*Frankenstein by Mary Shelley*/
 #msFranktitle {
     display: inline-block;
     font-family: georgia;
