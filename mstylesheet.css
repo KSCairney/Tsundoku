@@ -1,0 +1,189 @@
+html {
+    background-color: #ffffff;
+}
+body{
+    color: #ffffff;
+}
+div.inBox {
+    background: url(pages.jpg);
+    border: 1px solid #331a00;
+    width: 100%;
+}
+
+div.theBox {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #331a00;
+    opacity: 0.85;
+}
+
+#nihon {
+    font-size: 62px;
+    /*float: right;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #331a00;
+    vertical-align: top;
+}
+#kanji {
+    display: inline-block;
+    line-height: 30%;
+    color:#331a00;
+}
+
+#defi {
+    display: inline-block;
+    margin-left: 10px;
+    color: #331a00;
+}
+
+#ipa {
+    line-height: 0%;
+    font-family: courier;
+    color: #331a00;
+    word-wrap: normal;
+}
+a.click {
+    text-decoration: none;
+    color: #331a00;
+    background-color: #fdf7ef;
+    font-family: courier;
+    text-align: center;
+    border: 1px solid #331a00;
+    padding: 5px;
+    display: block;
+}
+div.buttons {
+    text-align: center;
+    width: 100%;
+}
+
+#articles {
+    text-align: center;
+    margin: auto;
+}
+span{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+div.go{
+    height: 100%;
+    width: 100%;
+    background: url("gokawa.jpg");
+    padding:0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#ykGokawatitle{
+    font-family: courier;
+    text-align: left;
+    color: #000000;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+div.shrike{
+    height: 100%;
+    width: 100%;
+    background: url("shrike.jpg");
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#dsShriketitle{
+    font-family: courier;
+    text-align: left;
+    color: #994d00;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    /*text-shadow: 1px 1px 2px #000000;*/
+}
+
+div.damn{
+    height: 100%;
+    width: 100%;
+    background: url("damn.jpg");
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#cpDamntitle{
+    font-family: courier;
+    text-align: left;
+    color: #4d0026;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+div.midnight{
+    height: 100%;
+    width: 100%;
+    background: url("midnight.jpg");
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#srMidnighttitle{
+    font-family: courier;
+    text-align: left;
+    color: #404040;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+div.scarlet{
+    height: 100%;
+    width: 100%;
+    background: url("scarlet.jpg");
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#sacdScarlettitle{
+    font-family: courier;
+    text-align: left;
+    color: #800000;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+div.leib{
+    height: 100%;
+    width: 100%;
+    background: url("leiby.jpg");
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    max-width: 520px;
+}
+
+#wmmjLeibtitle{
+    font-family: courier;
+    text-align: left;
+    color: #331a00;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
