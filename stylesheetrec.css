@@ -72,7 +72,12 @@ li a{
     font-family: courier;
 }
 /*under the title and above the menu*/
-#scibut {
+#ameribut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#britbut {
     color: #000000;
     font-family: courier;
     cursor: pointer;
@@ -89,6 +94,42 @@ li a{
     font-family: courier;
     cursor: pointer;
 }
+#frenbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#hisbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#japanbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#magbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#modbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+#rusbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
+
+#scibut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
 
 #switch {
     color: #000000;
@@ -97,7 +138,7 @@ li a{
 }
 
 a {
-    color: #006600;
+    color: #994d00;
     text-decoration: none;
 }
 

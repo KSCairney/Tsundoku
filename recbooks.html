@@ -7,7 +7,7 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
         <script>
             $(document).ready(function(){
-                $("#scibut, #clasbut, #fanbut, .homey, .conny").hover(function(){
+                $("#ameribut, #britbut, #clasbut, #fanbut, #frenbut, #hisbut, #japanbut, #magbut, #modbut, #rusbut, #scibut, .homey, .conny").hover(function(){
                     $(this).css("color", "#994d00");
                 }, function() {
                     $(this).css("color", "#000000");
@@ -43,29 +43,84 @@
             <li><a class="conny" href="#contact">Contact</a></li>
         </ul>
         <section id="rando">
-                <div id="scibut" onclick="sciclick()"><b>Science Fiction:</b></div>
+                <div id="ameribut" onclick="americlick()"><b>American Lit:</b></div>
             <script>
-            var scifi = ['<a class="blink" href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune by Frank Herbert</a><br><br><img class="covered" src="booky/dunefh.jpg"><p>A book about sand, worms, and war. Why dont you go to the side dammit! What the fuck!</p>', 
-                        'Stranger In A Strangeland by Robert Heinlein', 
-                        'Cats Cradle by Kurt Vonnegut', 
-                        'Hyperion by Dan Simmons', 
-                        'Oryx And Crake by Margaret Atwood', 
-                        'The Left Hand Of Darkness by Ursula Le Guin', 
-                        'The Moon Is A Harsh Mistress by Robert Heinlein', 
-                        '<a class="blink" href="androidsPKD.html">Do Androids Dream Of Electric Sheep? by Philip K Dick</a><br><br><img class="covered" src="booky/doandroids.jpg"><p>An awesome book about hunting down androids. It was a movie staring Harrison Ford. Called Blade Runner. Part of it was filmed at the Bradbury Building! Maybe if I make this super long and interesting it will do what I want. But know it is being a bit of a dick. Will it slowly climb? I dont know? Hopefully!</p>', 
-                        'The Hitchhikers Guide To The Universe by Douglas Adams'];
-            function scibook() {
-                var sci = [Math.floor(Math.random() * scifi.length)];
-                return scifi[sci];
+            var american = ['The Sound And The Fury by William Faulkner',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune by Frank Herbert</a><br><br><img class="covered" src="booky/dunefh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land">Stranger In A Strangeland by Robert Heinlein</a><br><br><img class="covered" src="booky/strangelandrh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Cat%27s_Cradle">Cat\'s Cradle by Kurt Vonnegut</a><br><br><img class="covered" src="booky/cradlekv.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)">Hyperion by Dan Simmons</a><br><br><img class="covered" src="booky/shrikeds.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness">The Left Hand Of Darkness by Ursula Le Guin</a><br><br><img class="covered" src="booky/leftulg.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress">The Moon Is A Harsh Mistress by Robert Heinlein</a><br><br><img class="covered" src="booky/moonrh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">Do Androids Dream Of Electric Sheep? by Philip K Dick</a><br><br><img class="covered" src="booky/doandroids.jpg">',
+                        'VALIS by Philip K Dick',
+                        'All The Pretty Horses by Cormac McCarthy',
+                        'A Canticle For Leibowitz by Walter M Miller Jr',
+                        'Slaughterhouse-Five by Kurt Vonnegut',
+                        'Abaslom, Absalom! by William Faulkner',
+                        'Catch 22 by Joseph Heller',
+                        'Light In August by William Faulkner',
+                        'The Violent Bear It Away by Flannery O\'Connor',
+                        'Wise Blood by Flanner O\'Connor'];
+            function ameribook() {
+                var ameri = [Math.floor(Math.random() * american.length)];
+                return american[ameri];
             }
-            function sciclick() {
-                document.getElementById("switch").innerHTML= scibook();
+            function americlick() {
+                document.getElementById("switch").innerHTML= ameribook();
+            }
+            </script>
+                <br>
+                <div id="britbut" onclick="britclick()"><b>British Lit:</b></div>
+            <script>
+            var british = ['Heart Of The Matter by Graham Greene',
+                        'Animal Farm by George Orwell',
+                        '1984 by George Orwell', 
+                        'A Study In Scarlet by Arthur Conan Doyle',
+                        'Frankenstein by Mary Shelley',
+                        'A Clockwork Orange by Anthony Burgess',
+                        'Jonathan Strange & Mr Norrell by Susanna Clarke',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy">The Hitchhiker\'s Guide To The Universe by Douglas Adams</a><br><br><img class="covered" src="booky/hitchda.jpg">',
+                        'The Hobbit by JRR Tolkien',
+                        'Brave New World by Aldous Huxley',
+                        'Brighton Rock by Graham Greene',
+                        '2001: A Space Odyssey by Arthur C Clarke',
+                        'The Power And The Glory by Graham Greene',
+                        'Never Let Me Go by Kazuo Ishiguro'];
+            function britbook() {
+                var brit = [Math.floor(Math.random() * british.length)];
+                return british[brit];
+            }
+            function britclick() {
+                document.getElementById("switch").innerHTML= britbook();
             }
             </script>
                 <br>
                 <div id="clasbut" onclick="clasclick()"><b>Classics:</b></div>
             <script>
-            var classic = ['Animal Farm by George Orwell', 'The Sound And The Fury by William Faulkner', '1984 by George Orwell', 'A Study In Scarlet by Arthur Conan Doyle'];
+            var classic = ['Animal Farm by George Orwell', 
+                        'The Sound And The Fury by William Faulkner', 
+                        '1984 by George Orwell', 
+                        'A Study In Scarlet by Arthur Conan Doyle',
+                        'Frankenstein by Mary Shelley',
+                        'A Clockwork Orange by Anthony Burgess',
+                        'The Brothers Karamazov by Fyodor Dostoyevsky',
+                        'The Stranger by Albert Camus',
+                        'One Hundred Years Of Solitude by Gabriel Garcia Marquez',
+                        'Heart Of The Matter by Graham Greene',
+                        'Brave New World by Aldous Huxley',
+                        'Brighton Rock by Graham Greene',
+                        'Slaughterhouse-Five by Kurt Vonnegut',
+                        'The Count Of Monte Cristo by Alexandre Dumas',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune by Frank Herbert</a><br><br><img class="covered" src="booky/dunefh.jpg">',
+                        'The Power And The Glory by Graham Greene',
+                        'Absalom, Absalom! by William Faulkner',
+                        'Catch 22 by Joseph Heller',
+                        'Darkness At Noon by Arthur Koestler',
+                        'Light In August by William Faulkner',
+                        'The Violent Bear It Away by Flanner O\'Connor',
+                        'Lolita by Vladimir Nobokov',
+                        'Wise Blood by Flannery O\'Connor'];
             function clasbook() {
                 var clas = [Math.floor(Math.random() * classic.length)];
                 return classic[clas];
@@ -77,7 +132,10 @@
                 <br>
                 <div id="fanbut" onclick="fanclick()"><b>Fantasy:</b></div>
             <script>
-            var fantasy = ['The Hobbit by JRR Tolkien', 'A Game Of Thrones by George RR Martin', 'The Magicians by Lev Grossman', 'American Gods by Neil Gaiman'];
+            var fantasy = ['The Hobbit by JRR Tolkien', 
+                        'A Game Of Thrones by George RR Martin',
+                        'Jonathan Strange & Mr Norrell by Susanna Clarke',
+                        'The Satanic Verses by Salman Rushdie'];
             function fanbook() {
                 var fan = [Math.floor(Math.random() * fantasy.length)];
                 return fantasy[fan];
@@ -86,10 +144,140 @@
                 document.getElementById("switch").innerHTML= fanbook();
             }
             </script>
+                <br>
+                <div id="frenbut" onclick="frenclick()"><b>French Lit:</b></div>
+            <script>
+            var french = ['The Stranger by Albert Camus',
+                        'The Count Of Monte Cristo by Alexandre Dumas'];
+            function frenbook() {
+                var fren = [Math.floor(Math.random() * french.length)];
+                return french[fren];
+            }
+            function frenclick() {
+                document.getElementById("switch").innerHTML= frenbook();
+            }
+            </script>
+                <br>
+                <div id="hisbut" onclick="hisclick()"><b>Historical Ficiton:</b></div>
+            <script>
+            var historical = ['We, The Drowned by Carsten Jensen',
+                            'Jonathan Strange & Mr Norrell by Susanna Clarke',
+                            'The Count Of Monte Cristo by Alexandre Dumas',
+                            'The Power And The Glory by Graham Greene',
+                            'Midnight\'s Children by Salman Rushdie'];
+            function hisbook() {
+                var his = [Math.floor(Math.random() * historical.length)];
+                return historical[his];
+            }
+            function hisclick() {
+                document.getElementById("switch").innerHTML= hisbook();
+            }
+            </script>
+                <br>
+                <div id="japanbut" onclick="japanclick()"><b>Japanese Lit:</b></div>
+            <script>
+            var japanese = ['Hard-Boiled Wonderland & The End Of The World by Haruki Murakami',
+                        'The Wind-Up Bird Chronicle by Haruki Murakami',
+                        'A Wild Sheep Chase by Haruki Murakami',
+                        'South Of The Border, West Of The Sun by Haruki Murakami',
+                        'Never Let Me Go by Kazuo Ishiguro'];
+            function japanbook() {
+                var japan = [Math.floor(Math.random() * japanese.length)];
+                return japanese[japan];
+            }
+            function japanclick() {
+                document.getElementById("switch").innerHTML= japanbook();
+            }
+            </script>
+                <br>
+                <div id="magbut" onclick="magclick()"><b>Magic Realism:</b></div>
+            <script>
+            var magic = ['One Hundred Years Of Solitude by Gabriel Garcia Marquez',
+                    'Hard-Boiled Wonderland & The End Of The World by Haruki Murakami',
+                    'Jonathan Strange & Mr Norrell by Susanna Clarke',
+                    'The Wind-Up Bird Chronicle by Haruki Murakami',
+                    'A Wild Sheep Chase by Haruki Murakami',
+                    'Midnight\'s Children by Salman Rushdie',
+                    'The Satanic Verses by Salman Rushdie'];
+            function magbook() {
+                var mag = [Math.floor(Math.random() * magic.length)];
+                return magic[mag];
+            }
+            function magclick() {
+                document.getElementById("switch").innerHTML= magbook();
+            }
+            </script>
+                <br>
+                <div id="modbut" onclick="modclick()"><b>Modern Classics:</b></div>
+            <script>
+            var modern = ['All The Pretty Horses by Cormac McCarthy',
+                    'The Wind-Up Bird Chronicle by Haruki Murakami',
+                    '<a class="blink" href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">Do Androids Dream Of Electric Sheep? by Philip K Dick</a><br><br><img class="covered" src="booky/doandroids.jpg">',
+                    '<a class="blink" href="https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness">The Left Hand Of Darkness by Ursula Le Guin</a><br><br><img class="covered" src="booky/leftulg.jpg">',
+                    '<a class="blink" href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy">The Hitchhiker\'s Guide To The Universe by Douglas Adams</a><br><br><img class="covered" src="booky/hitchda.jpg">',
+                    '2001: A Space Odyssey by Arthur C Clarke',
+                    'Midnight\'s Children by Salman Rushdie',
+                    'Never Let Me Go by Kazuo Ishiguro',
+                    'The Satanic Verses by Salman Rushdie'];
+            function modbook() {
+                var mod = [Math.floor(Math.random() * modern.length)];
+                return modern[mod];
+            }
+            function modclick() {
+                document.getElementById("switch").innerHTML= modbook();
+            }
+            </script>
+                <br>
+                <div id="rusbut" onclick="rusclick()"><b>Russian Lit:</b></div>
+            <script>
+            var russian = ['The Brothers Karamazov by Fyodor Dostoyevsky',
+                        'Lolita by Vladimir Nobokov'];
+            function rusbook() {
+                var rus = [Math.floor(Math.random() * russian.length)];
+                return russian[rus];
+            }
+            function rusclick() {
+                document.getElementById("switch").innerHTML= rusbook();
+            }
+            </script>
+                <br>
+                <div id="scibut" onclick="sciclick()"><b>Science Fiction:</b></div>
+            <script>
+            var scifi = ['<a class="blink" href="https://en.wikipedia.org/wiki/Dune_(novel)">Dune by Frank Herbert</a><br><br><img class="covered" src="booky/dunefh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Stranger_in_a_Strange_Land">Stranger In A Strangeland by Robert Heinlein</a><br><br><img class="covered" src="booky/strangelandrh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Cat%27s_Cradle">Cat\'s Cradle by Kurt Vonnegut</a><br><br><img class="covered" src="booky/cradlekv.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Hyperion_(Simmons_novel)">Hyperion by Dan Simmons</a><br><br><img class="covered" src="booky/shrikeds.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Oryx_and_Crake">Oryx And Crake by Margaret Atwood</a><br><br><img class="covered" src="booky/oryxma.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Left_Hand_of_Darkness">The Left Hand Of Darkness by Ursula Le Guin</a><br><br><img class="covered" src="booky/leftulg.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Moon_Is_a_Harsh_Mistress">The Moon Is A Harsh Mistress by Robert Heinlein</a><br><br><img class="covered" src="booky/moonrh.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">Do Androids Dream Of Electric Sheep? by Philip K Dick</a><br><br><img class="covered" src="booky/doandroids.jpg">', 
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy">The Hitchhiker\'s Guide To The Universe by Douglas Adams</a><br><br><img class="covered" src="booky/hitchda.jpg">',
+                        'Frankenstein by Mary Shelley',
+                        'A Clockwork Orange by Anthony Burgess',
+                        'VALIS by Philip K Dick',
+                        '1984 by George Orwell',
+                        'Brave New World by Aldous Huxley',
+                        'Hard-Boiled Wonderland & The End Of The World by Haruki Murakami',
+                        '2001: A Space Odyssey by Arthur C Clarke',
+                        'A Canticle For Leibowitz by Walter M Miller Jr',
+                        'Slaughterhouse-Five by Kurt Vonnegut',
+                        'Never Let Me Go by Kazuo Ishiguro'];
+            function scibook() {
+                var sci = [Math.floor(Math.random() * scifi.length)];
+                return scifi[sci];
+            }
+            function sciclick() {
+                document.getElementById("switch").innerHTML= scibook();
+            }
+            </script>
+            <p>...</p>
         </section>
+        <br>
+        <br>
         <article class="lordofpain">
             <div id="switch">  </div>
         </article>
+        <br>
         <br>
         <br>
     </body>
