@@ -38,6 +38,11 @@ div.theBox {
     display: inline-block;
     line-height: 30%;
     color:#331a00;
+    font-family: georgia;
+}
+#namet{
+    font-family: georgia;
+    font-size:26px;
 }
 
 #defi {
