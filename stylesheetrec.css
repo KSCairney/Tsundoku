@@ -114,6 +114,11 @@ li a{
     font-family: courier;
     cursor: pointer;
 }
+#gerbut {
+    color: #000000;
+    font-family: courier;
+    cursor: pointer;
+}
 #hisbut {
     color: #000000;
     font-family: courier;

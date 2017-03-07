@@ -7,7 +7,7 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
         <script>
             $(document).ready(function(){
-                $("#ameribut, #britbut, #clasbut, #fanbut, #frenbut, #hisbut, #japanbut, #magbut, #modbut, #rusbut, #scibut, .homey, .conny").hover(function(){
+                $("#ameribut, #britbut, #clasbut, #fanbut, #frenbut, #gerbut, #hisbut, #japanbut, #magbut, #modbut, #rusbut, #scibut, .homey, .conny").hover(function(){
                     $(this).css("color", "#994d00");
                 }, function() {
                     $(this).css("color", "#000000");
@@ -121,7 +121,10 @@
                         '<a class="blink" href="https://en.wikipedia.org/wiki/Light_in_August">Light In August by William Faulkner</a><br><br><img class="covered" src="booky/augustwf.jpg">',
                         '<a class="blink" href="https://en.wikipedia.org/wiki/The_Violent_Bear_It_Away">The Violent Bear It Away by Flannery O\'Connor</a><br><br><img class="covered" src="booky/violent.jpg">',
                         '<a class="blink" href="https://en.wikipedia.org/wiki/Lolita">Lolita by Vladimir Nobokov</a><br><br><img class="covered" src="booky/lolitavn.jpg">',
-                        '<a class="blink" href="https://en.wikipedia.org/wiki/Wise_Blood">Wise Blood by Flanner O\'Connor</a><br><br><img class="covered" src="booky/bloodfo.jpg">'];
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Wise_Blood">Wise Blood by Flanner O\'Connor</a><br><br><img class="covered" src="booky/bloodfo.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/The_Magic_Mountain">The Magic Mountain by Thomas Mann</a><br><br><img class="covered" src="booky/mgcmtntm.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front">All Quiet On The Western Front by Erich Maria Remarque</a><br><br><img class="covered" src="booky/quietemr.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Siddhartha_(novel)">Siddhartha by Herman Hesse</a><br><br><img class="covered" src="booky/sidhh.jpg">'];
             function clasbook() {
                 var clas = [Math.floor(Math.random() * classic.length)];
                 return classic[clas];
@@ -159,6 +162,20 @@
             }
             </script>
                 <br>
+                <div id="gerbut" onclick="gerclick()"><b>German Lit:</b></div>
+            <script>
+            var german = ['<a class="blink" href="https://en.wikipedia.org/wiki/The_Magic_Mountain">The Magic Mountain by Thomas Mann</a><br><br><img class="covered" src="booky/mgcmtntm.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front">All Quiet On The Western Front by Erich Maria Remarque</a><br><br><img class="covered" src="booky/quietemr.jpg">',
+                        '<a class="blink" href="https://en.wikipedia.org/wiki/Siddhartha_(novel)">Siddhartha by Herman Hesse</a><br><br><img class="covered" src="booky/sidhh.jpg">'];
+            function gerbook() {
+                var ger = [Math.floor(Math.random() * german.length)];
+                return german[ger];
+            }
+            function gerclick() {
+                document.getElementById("switch").innerHTML= gerbook();
+            }
+            </script>
+                <br>
                 <div id="hisbut" onclick="hisclick()"><b>Historical Ficiton:</b></div>
             <script>
             var historical = ['<a class="blink" href="https://en.wikipedia.org/wiki/Carsten_Jensen">We, The Drowned by Carsten Jensen</a><br><br><img class="covered" src="booky/drownedcj.jpg">',
@@ -166,7 +183,9 @@
                             '<a class="blink" href="https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo">The Count Of Monte Cristo by Alexandre Dumas</a><br><br><img class="covered" src="booky/countad.jpg">',
                             '<a class="blink" href="https://en.wikipedia.org/wiki/The_Power_and_the_Glory">The Power And The Glory by Graham Greene</a><br><br><img class="covered" src="booky/powergg.jpg">',
                             '<a class="blink" href="https://en.wikipedia.org/wiki/Midnight%27s_Children">Midnight\'s Children by Salman Rushdie</a><br><br><img class="covered" src="booky/midnightsr.jpg">',
-                            '<a class="blink" href="https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera">Love In The Time Of Cholera by Gabriel Garcia Marquez</a><br><br><img class="covered" src="booky/choleraggm.jpg">'];
+                            '<a class="blink" href="https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera">Love In The Time Of Cholera by Gabriel Garcia Marquez</a><br><br><img class="covered" src="booky/choleraggm.jpg">',
+                            '<a class="blink" href="https://en.wikipedia.org/wiki/Siddhartha_(novel)">Siddhartha by Herman Hesse</a><br><br><img class="covered" src="booky/sidhh.jpg">',
+                            '<a class="blink" href="https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front">All Quiet On The Western Front by Erich Maria Remarque</a><br><br><img class="covered" src="booky/quietemr.jpg">'];
             function hisbook() {
                 var his = [Math.floor(Math.random() * historical.length)];
                 return historical[his];
