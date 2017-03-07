@@ -1,9 +1,19 @@
-body {
-    background: #ffffff;
-    color: #000000;
-    font-family: courier;
+html {
+    background-color: #ffffff;
+}
+body{
+    color: #ffffff;
 }
 
+/*
+header {
+    width: 100%;
+    min-width: 1300px;
+    height:200px;
+    overflow:hidden;
+}
+*/
+/* this is the header */
 div.inBox {
     background: url(pages.jpg);
     border: 1px solid #331a00;
@@ -28,6 +38,11 @@ div.theBox {
     display: inline-block;
     line-height: 30%;
     color:#331a00;
+    font-family: georgia;
+}
+#namet{
+    font-family: georgia;
+    font-size:26px;
 }
 
 #defi {
@@ -71,4 +86,31 @@ li a{
     text-decoration: none;
     font-family: courier;
 }
+
+
+.bcover{
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+aside {
+    float: left;
+    max-width: 350px;
+}
+.btitle {
+    font-family: georgia;
+    color: #331a00;
+}
+article {
+    margin-left: 420px;
+}
+.texty {
+    font-family: courier;
+    color: #331a00;
+    text-align: justify;
+    width: 70%;
+    display: inline-block;
+}
+
 
