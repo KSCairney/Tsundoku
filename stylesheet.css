@@ -159,6 +159,31 @@ nav {
     border-color: #2a2a2b;
     border-style: solid;
 }
+
+/*The Old Capital by Yasunari Kawabata*/
+#oldcapban {
+    height: 200px;
+    width: 97%;
+    background-color: #f2f2f2;
+    color: #ad629d;
+    border-width: 3px 3px 3px 1px;
+    border-color: #464647;
+    border-style: solid;
+    border-radius: 2px;
+    font-size: 23px;
+    cursor: pointer;
+}
+#oldcapPic {
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+    height: 100%;
+    width: auto;
+}
+
+#ykOldCaptitle {
+    display: inline-block;
+    font-family: georgia;
+    vertical-align: top;
+}
 /*The Master of Go by Yasunari Kawabata*/
 #gokawaban {
     height: 200px;
